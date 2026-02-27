@@ -5,7 +5,7 @@ export default function AboutMe({ navigation, route}){
     return(
         <View style={styles.container}>
             <Text style={styles.title}>About Me</Text>
-            <Text style={styles.description}>Hola, soy Luis y a continuacion puedes pulsar para conocer mas sobre mi :)</Text>
+            <Text style={styles.description}>Hola, soy Luis tengo 19 años y a continuacion puedes pulsar para conocer mas sobre mi :)</Text>
             <TouchableOpacity style={styles.boton} onPress={() => navigation.navigate("MoviesFavScreen")} >
                 <Text style={styles.txtboton}>Conoce mis peliculas favoritas</Text>
             </TouchableOpacity>
